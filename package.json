@@ -9,24 +9,26 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint:fix": "eslint . --fix --ext .js,ts,.vue ",
     "prettier": "prettier --write",
     "commitlint": "commitlint --config commitlint.config.cjs -e -V"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.4",
     "@commitlint/config-conventional": "^18.4.4",
+    "@huntersofbook/naive-ui-nuxt": "^1.2.0",
     "@nuxtjs/eslint-config": "^12.0.0",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@nuxtjs/eslint-module": "^4.1.0",
+    "@nuxtjs/tailwindcss": "^6.10.4",
     "@typescript-eslint/eslint-plugin": "^6.18.1",
     "@typescript-eslint/parser": "^6.18.1",
     "eslint": "^8.56.0",
     "husky": "^8.0.3",
     "nuxt": "^3.9.0",
     "prettier": "^3.1.1",
+    "sass": "^1.69.7",
     "vue": "^3.4.6",
     "vue-router": "^4.2.5"
   }
-
 }
